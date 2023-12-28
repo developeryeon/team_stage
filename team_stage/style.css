@@ -17,7 +17,7 @@ html {
 
 body {
 	width: 100%;
-	background: lgitinear-gradient(40deg, rgb(171, 170, 172), rgb(180, 180, 180), #929292);
+	background: linear-gradient(40deg, rgb(171, 170, 172), rgb(180, 180, 180), #929292);
 	/* background: linear-gradient(40deg, rgb(229, 197, 233), rgb(25, 71, 75), #15194e); */
 }
 .container {
