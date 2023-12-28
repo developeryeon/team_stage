@@ -135,8 +135,32 @@ p {
 .commentBox #card .col {
 	width: 1000px;
 
+
 }
 
 .commentBox #card .col .card-body {
 	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+
+.commentBox .card-title {
+
+}
+
+.commentBox .card-text {
+	
+	margin-top:25px;
+
+}
+
+.image-and-title {
+    display: flex; /* Flexbox를 사용하여 자식 요소를 가로로 정렬 */
+    align-items: center; /* 수직 정렬: 가운데 정렬 */
+}
+
+/* 이미지 스타일 설정 */
+.card-image {
+    width: 50px; /* 이미지의 너비 조절 */
+    height: 50px; /* 이미지의 높이 조절 */
+    margin-right: 10px;
 }
