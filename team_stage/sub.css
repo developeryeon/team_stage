@@ -160,3 +160,21 @@ p {
 	background-color: #926b6a;
 	border: none;
 }
+
+.double-check-btn {
+	background-color: #927170;
+	color: #fff;
+	border: none;
+}
+
+.apply-btn {
+	background-color: #856564;
+	color: #fff;
+	border: none;
+}
+
+.cancel-btn {
+	background-color: #d6d5d5;
+	color: #926b6a;
+	border: none;
+}
