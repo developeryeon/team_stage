@@ -30,19 +30,19 @@ a {
 	text-decoration-line: none;
 }
 
-#top-btn {
-	position: fixed;
-	bottom: 40px;
-	right: 40px;
-	z-index: 999;
+#top-btn { 
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    z-index: 999;
 	background-image: url(topicon.png);
-	background-position: center;
-	background-repeat: no-repeat;
-	border: none;
-	cursor: pointer;
-	border-radius: 50%;
-	width: 68px;
-	height: 68px;
+	background-position:center;
+	background-repeat:no-repeat;	
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+    width: 68px;
+    height: 68px;
 }
 
 .cardMain {
@@ -103,6 +103,7 @@ p {
 	justify-content: center;
 	align-items: center;
 	margin: 320px auto 50px auto;
+	
 }
 
 .comment-wrap .row #comment {
@@ -117,11 +118,12 @@ p {
 
 .commentBox {
 	margin: 50px;
+	
 }
 
 .commentBox #card {
 	position: relative;
-	margin: 5 0px;
+	margin: 5	0px;
 	word-break: break-all;
 
 	border-radius: 8px;
@@ -132,11 +134,8 @@ p {
 }
 .commentBox #card .col {
 	width: 1000px;
-<<<<<<< HEAD
 
 
-=======
->>>>>>> 05a74755e1babdf005126a84a1fc5315e7904b9a
 }
 
 .commentBox #card .col .card-body {
@@ -152,16 +151,4 @@ p {
 	
 	margin-top:25px;
 
-}
-
-.image-and-title {
-    display: flex; /* Flexbox를 사용하여 자식 요소를 가로로 정렬 */
-    align-items: center; /* 수직 정렬: 가운데 정렬 */
-}
-
-/* 이미지 스타일 설정 */
-.card-image {
-    width: 50px; /* 이미지의 너비 조절 */
-    height: 50px; /* 이미지의 높이 조절 */
-    margin-right: 10px;
 }
